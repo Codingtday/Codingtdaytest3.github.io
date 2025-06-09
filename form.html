@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Codingtday.inc</div>
+        <div class="nav-items">
+            <a href="../index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="../contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <form action= action="https://api.web3forms.com/submit" method="POST">
+        <div>
+            <input type="hidden" name="access_key" value="a9333938-26b7-482e-b99c-9d3743e3616f">
+
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="kirby" minlength="5" maxlength="13" required>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="8" maxlength="14" required> <br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="K1bry$tar@gmail.com"><br>
+
+            <label for="phone">phone:</label>
+            <input type="phone" id="phone" placeholder="905-654-4537" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+            <label for="title">title:</label>
+
+            <label for="title">Mr.:</label>
+            <input type="radio" id="Mr." value="Mr.">
+            <label for="title">Ms.:</label>\
+            <input type="radio" id="Ms." value="Ms.">
+            <label for="title">phd.:</label>
+            <input type="radio" id="phd." value="phd.">
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jepg"><br>
+
+            <button type="submit">submit</button><br>
+
+        </div>
+    </form>
+    
+</body>
+</html>
